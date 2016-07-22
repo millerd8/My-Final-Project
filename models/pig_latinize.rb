@@ -18,5 +18,5 @@ end
 
 
 def to_pig_latin(string)
-  string.split.collect{|word| piglatinize(word)}.join(" ")
+  [string.split.collect{|word| piglatinize(word)}.join(" "),"/images/IMG_0330.JPG"]
 end
